@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+
+const reversedNumbers = [...numbers].reverse();
+console.log("Reversed Numbers:", reversedNumbers);
+
+const slicedNumbers = numbers.slice(2, 5);
+
+,console.log("Sliced Numbers:", slicedNumbers);
+
+const removedNumbers = [...numbers];
+removedNumbers.splice(2, 2, 35, 45);
+console.log("Array After Splice:", removedNumbers);
+
+const moreNumbers = [110, 120, 130];
+const combinedNumbers = numbers.concat(moreNumbers);
+console.log("Combined Numbers:", combinedNumbers);
+
+const includesNumber50 = numbers.includes(50);
+console.log("Does the array include 50?", includesNumber50);
+
+const indexOf30 = numbers.indexOf(30);
+console.log("Index of 30:", indexOf30);
+
+const joinedNumbers = numbers.join(" - ");
+console.log("Joined Numbers:", joinedNumbers);
+
+const arrayFromString = Array.from("hello");
+console.log("Array From String:", arrayFromString);
+
+
+
+    
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
